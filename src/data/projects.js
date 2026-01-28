@@ -16,4 +16,12 @@ export const projectsData = [
         link:
     }
     ...
-]
+];
+
+export const skills = [
+    { name: "HTML5", icon: "fa-html5" },
+    { name: "CSS3", icon: "fa-css3-alt" },
+    { name: "JavaScript", icon: "fa-js" },
+    { name: "React", icon: "fa-react" },
+    { name: "SASS", icon: "fa-sass" },
+];

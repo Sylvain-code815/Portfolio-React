@@ -1,7 +1,21 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/Fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply text-4xl;
+    }
+}
+
 html {
     scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
 }
